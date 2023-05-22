@@ -23,7 +23,6 @@ resource "azurerm_function_app_function" "example" {
         name = "azurerm_function_app_function"
         location = "West Europe"
 }
-
 resource "azurerm_function_app" "function_app" {
   name = var.function_app_name
   location = var.location
